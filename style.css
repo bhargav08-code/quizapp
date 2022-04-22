@@ -1,0 +1,91 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+}
+.main {
+  height: 30rem;
+  width: 24rem;
+  border-radius: 1.5rem;
+  background-color: #e7e9ed;
+
+  padding: 60px 35px 35px 35px;
+  border-radius: 40px;
+
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+}
+.heading {
+  text-align: center;
+  color: #5957c8;
+}
+.question {
+  color: #556373;
+}
+.bank {
+  display: flex;
+  justify-content: center;
+}
+ul li {
+  list-style: none;
+  height: 3rem;
+  font-size: 1rem;
+}
+.submit {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#btn {
+  text-align: center;
+  background-color: #4d5fe6;
+  color: white;
+  height: 2.8rem;
+  width: 6rem;
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: -2px 9px 20px -3px rgba(77, 95, 230, 1);
+  -moz-box-shadow: -2px 9px 20px -3px rgba(77, 95, 230, 1);
+  box-shadow: -2px 9px 20px -3px rgba(77, 95, 230, 1);
+  transition: ease-in 1.5s;
+}
+#btn:hover {
+  cursor: pointer;
+  position: relative;
+  bottom: 5px;
+}
+input[type="radio"]:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+input[type="radio"]:hover {
+  cursor: pointer;
+}
+
+input[type="radio"]:checked:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #5957c8;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
